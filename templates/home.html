@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    {% include 'includes/_messages.html' %}
+    <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto d-flex justify-content-around align-items-center" style="background-color: rgb(211, 222, 220); height: 350px">
+                <a class="btn btn-primary btn-lg" href="/mainLogin"style="width:150px">Maintenance</a>
+                <a class="btn btn-primary btn-lg" href="/login" 
+                style="width:150px">User</a>
+        </div>
+    </div>
+
+{% endblock %}
